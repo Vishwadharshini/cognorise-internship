@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  background:rgb(227, 147, 8);
+}
+.converter{
+  background:white;
+  width: 310px;
+  height:350px;
+  border-radius: 7px;
+}
+.converter header{
+  font-size: 28px;
+  text-align: center;
+  font-weight:bold;
+  margin-top: 20px;
+}
+.converter form{
+  margin-top: 30px;
+  padding-left:20px;
+}
+form :where(input,select,button){
+  width: 90%;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+form p{
+  font-size: 20px;
+  margin-bottom:5px;
+}
+form input{
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid grey;
+  font-size:18px;
+}
+form input:focus{
+  border:2px solid rgb(222, 135, 5);
+  padding:10px;
+}
+form .drop-list{
+  padding-left:40px;
+  display: flex;
+  align-items: center;
+  column-gap:16%;
+}
+.drop-list select-box{
+  display: flex;
+}
+.select-box select{
+  width: auto;
+  font-size:14px;
+  border:1px solid grey;
+  padding: 8px;
+}
+.res{
+  margin-top:10px;
+  font-size:17px;
+  padding-left:25%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#convert{
+  border: none;
+  border-radius: 5px;
+  margin-top:20px;
+  padding: 10px;
+  background:orange;
+  width: 60%;
+  margin-left:18%;
+  font-size:15px;
+  cursor: pointer;
+}
