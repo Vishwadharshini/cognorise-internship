@@ -28,8 +28,8 @@ const questions = [
     {
         question: '3.Which CSS property controls the size of text?',
         answers: [
-            { text: 'a) font-size', correct: false },
-            { text: 'b) text-size', correct: true },
+            { text: 'a) font-size', correct: true},
+            { text: 'b) text-size', correct:false },
             { text: 'c) font-style', correct: false },
             { text: 'd) text-style', correct: false }
         ]
